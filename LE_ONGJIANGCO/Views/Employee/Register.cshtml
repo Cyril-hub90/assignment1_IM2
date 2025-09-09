@@ -1,0 +1,24 @@
+﻿@{
+    @model EmployeeModel
+
+    <h2>Register</h2>
+    <form asp-action="Register" method="post">
+        <input asp-for="EmpFullname" placeholder="Full Name" />
+        <span asp-validation-for="EmpFullname" class="text-danger"></span><br />
+
+        <input asp-for="EmpAddr" placeholder="Address" />
+        <span asp-validation-for="EmpAddr" class="text-danger"></span><br />
+
+        <input asp-for="EmpContact" placeholder="Contact Number" />
+        <span asp-validation-for="EmpContact" class="text-danger"></span><br />
+
+        <input asp-for="EmpEmail" placeholder="Email" />
+        <span asp-validation-for="EmpEmail" class="text-danger"></span><br />
+
+        <input asp-for="EmpPwd" placeholder="Password" type="password" />
+        <span asp-validation-for="EmpPwd" class="text-danger"></span><br />
+
+        <button type="submit">Register</button><br />
+    </form>
+    <a asp-action="Login">Logout</a>
+}
