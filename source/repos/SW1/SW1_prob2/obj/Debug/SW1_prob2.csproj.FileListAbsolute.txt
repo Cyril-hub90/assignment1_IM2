@@ -1,0 +1,6 @@
+C:\Users\User\source\repos\SW1_prob2\bin\Debug\SW1_prob2.exe.config
+C:\Users\User\source\repos\SW1_prob2\bin\Debug\SW1_prob2.exe
+C:\Users\User\source\repos\SW1_prob2\bin\Debug\SW1_prob2.pdb
+C:\Users\User\source\repos\SW1_prob2\obj\Debug\SW1_prob2.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\SW1_prob2\obj\Debug\SW1_prob2.exe
+C:\Users\User\source\repos\SW1_prob2\obj\Debug\SW1_prob2.pdb
