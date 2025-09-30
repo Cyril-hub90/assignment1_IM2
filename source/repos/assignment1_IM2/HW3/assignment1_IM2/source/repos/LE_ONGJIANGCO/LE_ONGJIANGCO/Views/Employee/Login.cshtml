@@ -1,0 +1,17 @@
+﻿@{
+    @model LoginModel
+
+    <h2>Login</h2>
+    <form asp-action="Login" method="post">
+        <input asp-for="Email" placeholder="Email" />
+        <span asp-validation-for="Email" class="text-danger"></span><br />
+
+        <input asp-for="Password" placeholder="Password" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span><br />
+
+        <button type="submit">Login</button>
+    </form>
+   
+
+
+}
